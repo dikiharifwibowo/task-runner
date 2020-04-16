@@ -1,2 +1,44 @@
 body {
-  background: green; }
+  background: #f3f3f3; }
+
+.home .header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2A2A2A; }
+
+.home .card-orange {
+  width: 100%;
+  background: #FFE684; }
+  .home .card-orange .jml {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2A2A2A; }
+  .home .card-orange .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2A2A2A; }
+  .home .card-orange i.icon {
+    color: #E1CB74; }
+
+.home .card-blue {
+  background: #CFE6EE;
+  width: 100%; }
+  .home .card-blue .jml {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2A2A2A; }
+  .home .card-blue .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2A2A2A; }
+  .home .card-blue i.icon {
+    color: #ACD3E1; }

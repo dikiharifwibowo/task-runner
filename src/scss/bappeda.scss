@@ -1,3 +1,54 @@
+//import component variabel
+@import "variabel";
 body {
-  background: green;
+  background: $putih-abu;
+}
+@mixin jml {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  color: $black;
+}
+@mixin title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: $black;
+}
+
+.home {
+  .header {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: $black;
+  }
+  .card-orange {
+    width: 100%;
+    background: $orange;
+    .jml {
+      @include jml;
+    }
+    .title {
+      @include title;
+    }
+    i.icon {
+      color: $abu-abu;
+    }
+  }
+  .card-blue {
+    background: #CFE6EE;
+    width: 100%;
+    .jml {
+      @include jml;
+    }
+    .title {
+      @include title;
+    }
+    i.icon {
+      color: #ACD3E1;
+    }
+  }
 }
